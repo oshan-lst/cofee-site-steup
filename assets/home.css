@@ -69,8 +69,81 @@ nav a:hover {
 }
 
 /*image design*/
+.content{
+    max-width: 950px;
+    padding: 40px;
+}
+
+
+/* Locally-Owned Coffee Shop */
 #loc{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #d06240;
-  text
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+
+    color:#8b5e63;
+
+    letter-spacing:0.5px;
+
+    margin-bottom:25px;
+}
+
+
+
+/* Main Hero Text */
+#bre{
+
+    font-family:"Cormorant Garamond", serif;
+
+    font-size:110px;
+
+    line-height:0.95;
+
+    font-weight:500;
+
+    color:#3b2f31;
+
+    letter-spacing:-2px;
+
+    margin:0 0 35px;
+
+}
+
+
+
+/* Description text */
+.content h3{
+
+    font-family:"Inter", sans-serif;
+
+    font-size:28px;
+
+    line-height:1.6;
+
+    font-weight:400;
+
+    color:#403638;
+
+    margin-bottom:35px;
+
+}
+
+
+/* Bold words */
+.content strong{
+
+    font-weight:700;
+
+    color:#34292b;
+
+}
+
+
+/* Open time */
+.content h3:last-child{
+
+    font-size:24px;
+
+    font-weight:600;
+
 }
