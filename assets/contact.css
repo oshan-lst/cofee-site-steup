@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#f8f2ea;
+color:#3b2418;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#4b2d1e;
+}
+
+.logo{
+color:#fff;
+font-family:'Playfair Display';
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover,
+.active{
+color:#d89b46;
+}
+
+/* HERO */
+
+.hero{
+height:50vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url(images/contact-banner.jpg);
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.overlay{
+color:white;
+}
+
+.overlay h4{
+letter-spacing:3px;
+color:#d89b46;
+}
+
+.overlay h1{
+font-size:55px;
+font-family:'Playfair Display';
+margin:20px 0;
+}
+
+.overlay p{
+font-size:18px;
+}
+
+/* CONTACT */
+
+.contact{
+display:flex;
+justify-content:space-between;
+gap:60px;
+padding:80px 10%;
+}
+
+.contact-info{
+width:40%;
+}
+
+.contact-info h2{
+font-size:45px;
+margin-bottom:20px;
+font-family:'Playfair Display';
+}
+
+.contact-info p{
+line-height:1.8;
+margin-bottom:20px;
+}
+
+.info{
+margin-top:30px;
+}
+
+.info h3{
+color:#c88945;
+margin-bottom:10px;
+}
+
+.contact-form{
+width:55%;
+}
+
+form{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.1);
+}
+
+form input,
+form textarea{
+
+width:100%;
+padding:15px;
+margin-bottom:20px;
+
+border:1px solid #ddd;
+border-radius:10px;
+
+font-size:16px;
+font-family:Poppins;
+
+outline:none;
+}
+
+form input:focus,
+form textarea:focus{
+
+border:2px solid #c88945;
+
+}
+
+button{
+
+width:100%;
+padding:16px;
+
+border:none;
+border-radius:40px;
+
+background:#5b321c;
+color:white;
+
+font-size:17px;
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#c88945;
+
+}
+
+/* FOOTER */
+
+footer{
+
+background:#2d1b12;
+color:white;
+padding:25px;
+text-align:center;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.contact{
+flex-direction:column;
+}
+
+.contact-info,
+.contact-form{
+width:100%;
+}
+
+.overlay h1{
+font-size:38px;
+}
+
+header{
+flex-direction:column;
+gap:15px;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+}
