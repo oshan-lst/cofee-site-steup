@@ -44,7 +44,7 @@ color:#d89b46;
 .hero{
 height:50vh;
 background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-url(images/contact-banner.jpg);
+url(https://images.openai.com/static-rsc-4/EvQbkxJPOYwlvQANbe2gFBXFozXohaW_11C6SRZbkKbFd3wS0elVgfxD0AJ9axKmEv0-1PcV2gCMSZJH4XjD3tuL23C2L4Jkrpz_mYlVbnsguzXMXCLJzYVatmQloai610Et39zY7qQLhtljM9FpcgUX7mfGFPaAnc1LrDv_XMIp3Nhpx-DX1iW6xbAKRsDx?purpose=fullsize);
 background-size:cover;
 background-position:center;
 display:flex;
